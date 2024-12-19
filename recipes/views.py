@@ -46,7 +46,7 @@ def search(request):
                 lambda x: f'<img src="{x}" width="100" height="100"/>'
             )
 
-        recipes_df = recipes_df.to_html(escape=False)
+            recipes_df = recipes_df.to_html(escape=False)
 
     context = {
         "form": form,
